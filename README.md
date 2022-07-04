@@ -79,3 +79,19 @@ rm -r public
 ```
 composer create-project laravel/laravel .
 ```
+
+### Migrate database by docker-compose
+ 
+ ```
+ cd ../
+ ```
+
+ ```
+ docker-compose exec php php /var/www/html/artisan migrate
+ ```
+
+ ### down docker file
+
+ ```
+ docker-compose down
+ ```
