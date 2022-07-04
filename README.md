@@ -2,6 +2,15 @@
 
 ## Initial Setup
 
+### Create a initial directory
+
+```
+mkdir LaravelDevEnvWithDocker
+```
+
+```
+cd LaravelDevEnvWithDocker
+```
 ### Create a yml file
 
 ```
