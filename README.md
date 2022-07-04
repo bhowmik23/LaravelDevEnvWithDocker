@@ -64,3 +64,18 @@ touch src/public/index.html
 ```
 docker-compose bulid && docker-compose up -d
 ```
+### remove public/index.htm file under src directory
+
+```
+cd src
+```
+
+```
+rm -r public
+```
+
+### install laravel project root directory
+
+```
+composer create-project laravel/laravel .
+```
